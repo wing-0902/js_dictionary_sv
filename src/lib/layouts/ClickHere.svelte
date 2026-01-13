@@ -23,15 +23,29 @@
   <div
     class="menuSlot"
     class:hidden={!isOpen}
-  ></div>
+  >
+    <div class="rowGr">
+      <a href="/license/app/">このアプリについて</a>
+      <a href="/license/contents/">コンテンツの著作権</a>
+      <a href="/license/">その他のライセンス</a>
+    </div>
+    <div class="rowGr">
+      <a href="/form/">フィードバック</a>
+      <a href="/form/report/">バグ報告</a>
+    </div>
+    <div class="rowGr">
+      <a>このAppを共有</a>
+      <a>URLスキームをコピー</a>
+    </div>
+  </div>
 
   {#if isOpen}
     <div
-      onclick={() => isOpen = false}
+      onclick={() => (isOpen = false)}
       class="back"
-      aria-label='メニューを閉じる'
-      role='button'
-      tabindex='-1'
+      aria-label="メニューを閉じる"
+      role="button"
+      tabindex="-1"
     ></div>
   {/if}
 </div>
