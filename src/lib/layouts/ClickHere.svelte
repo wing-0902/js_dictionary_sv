@@ -18,11 +18,19 @@
       /></svg
     >
   </button>
-  
-  <!-- 中身 -->
-  <div class='menuSlot' class:hidden={!isOpen}>
 
-  </div>
+  <!-- 中身 -->
+  <div
+    class="menuSlot"
+    class:hidden={!isOpen}
+  ></div>
+
+  {#if isOpen}
+    <div
+      onclick={() => isOpen = false}
+      class="back"
+    ></div>
+  {/if}
 </div>
 
 <style lang="scss">
