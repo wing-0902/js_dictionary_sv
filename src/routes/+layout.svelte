@@ -21,11 +21,11 @@
   />
 </svelte:head>
 
-<div class='body'>
+<div class="body">
   <header>
     <SvHeader />
   </header>
-{@render children()}
+  {@render children()}
 </div>
 
 <style lang="scss">
