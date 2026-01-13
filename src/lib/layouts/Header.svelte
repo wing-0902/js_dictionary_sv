@@ -2,9 +2,7 @@
   import ClickHere from './ClickHere.svelte';
   import { page } from '$app/state';
 
-  const currentPath = page.url.pathname;
-
-  const isOnSearch = currentPath === '/' || currentPath.startsWith('/content/');
+  const isOnSearch = $derived(page.url.pathname === '/' || page.url.pathname.startsWith('/content/'));
 </script>
 
 <div class="root">
