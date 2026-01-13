@@ -1,0 +1,44 @@
+:root {
+  --foreground: white;
+  --background: #16171d;
+  --borderColor: rgb(97, 97, 97);
+  --themeColor: #3178c6;
+  --codeBack: #011627;
+
+  --headerHeight: 45px;
+  --searchWidth: 320px;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+a {
+  color: var(--themeColor);
+  filter: brightness(120%);
+  &:hover {
+    filter: brightness(100%);
+  }
+}
+
+code {
+  font-family: 'Fira Code Variable', 'M PLUS 1 Code Variable', monospace;
+}
+
+.formTextSlot {
+  font-size: 17px;
+  border: 1px solid transparent;
+  border-radius: 10px 10px 0 0;
+  border-bottom-color: var(--foreground);
+  background: var(--codeBack);
+  font-family: 'Zen Maru Gothic';
+  color: var(--foreground);
+  &:focus {
+    outline: none;
+    color: var(--themeColor);
+    border-bottom-color: var(--themeColor);
+  }
+  &.error {
+    border-bottom-color: red;
+    color: red;
+  }
+}
