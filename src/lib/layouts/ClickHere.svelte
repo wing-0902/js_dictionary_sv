@@ -29,6 +29,9 @@
     <div
       onclick={() => isOpen = false}
       class="back"
+      aria-label='メニューを閉じる'
+      role='button'
+      tabindex='-1'
     ></div>
   {/if}
 </div>
