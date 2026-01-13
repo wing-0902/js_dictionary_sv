@@ -12,6 +12,12 @@
   color: var(--foreground);
 }
 
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
 a {
   color: var(--themeColor);
   filter: brightness(120%);
