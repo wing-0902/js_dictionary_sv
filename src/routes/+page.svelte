@@ -1,5 +1,4 @@
 <script lang='ts'>
-  import { title, showContent, fullScreen } from '$lib/layouts/state.svelte';
   
 </script>
 

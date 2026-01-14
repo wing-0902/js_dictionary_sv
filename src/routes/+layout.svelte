@@ -8,23 +8,29 @@
   import '@fontsource-variable/m-plus-1-code';
   import '@fontsource/zen-maru-gothic';
 
-  let { children } = $props();
+  import type { PageData } from './$types';
+  const {children, data } = $props<{ data: PageData }>();
 
   // コンポーネント
   import SvHeader from '$lib/layouts/Header.svelte';
-
-  // レイアウト変数
-  import { status } from '$lib/layouts/state.svelte';
 
   // SEO
   import { pubDomain, defaultTitle } from '$lib/envConfig';
   const canonical = pubDomain + page.url.pathname;
 
-  let metaTitle: string = $state('');
-  if (status.title === defaultTitle || status.title === '') {
-    metaTitle = defaultTitle;
-  } else {
-    metaTitle = `${status.title} | ${defaultTitle}`;
+  function getTitle() {
+    if (data.title = defaultTitle) {
+      return defaultTitle;
+    } else {
+      return `${data.title} | defaultTitle`
+    }
+  }
+
+  function showContent() {
+    return data.showContent;
+  }
+  function fullScreen() {
+    return data.fullScreen
   }
 </script>
 
@@ -33,7 +39,7 @@
     rel="canonical"
     href={canonical}
   />
-  <title>{metaTitle}</title>
+  <title>{getTitle}</title>
 </svelte:head>
 
 <div class="body">
