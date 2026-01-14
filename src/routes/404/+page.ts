@@ -1,5 +1,5 @@
 export function load() {
-    return {
-        title: "Not Found"
-    }
+  return {
+    title: 'Not Found'
+  };
 }

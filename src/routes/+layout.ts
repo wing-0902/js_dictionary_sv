@@ -4,7 +4,7 @@
 // avoid large performance and SEO impacts
 export const prerender = true;
 export const trailingSlash = 'always';
-import { defaultTitle, defaultDescription } from "$lib/envConfig";
+import { defaultTitle, defaultDescription } from '$lib/envConfig';
 
 // バケツリレー
 export function load() {
@@ -12,6 +12,6 @@ export function load() {
     title: defaultTitle,
     description: defaultDescription,
     showContent: true,
-    fullScreen: false,
+    fullScreen: false
   };
 }

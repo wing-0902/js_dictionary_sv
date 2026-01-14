@@ -9,7 +9,7 @@
   import '@fontsource/zen-maru-gothic';
 
   import type { PageData } from './$types';
-  const {children, data } = $props<{ data: PageData }>();
+  const { children, data } = $props<{ data: PageData }>();
 
   // コンポーネント
   import SvHeader from '$lib/layouts/Header.svelte';
@@ -18,20 +18,16 @@
   import { pubDomain, defaultTitle } from '$lib/envConfig';
   const canonical = pubDomain + page.url.pathname;
 
-  function getTitle() {
-    if (data.title = defaultTitle) {
+  const getTitle = $derived.by(() => {
+    if (data.title === defaultTitle) {
       return defaultTitle;
     } else {
-      return `${data.title} | defaultTitle`
+      return `${data.title} | defaultTitle`;
     }
-  }
+  });
 
-  function showContent() {
-    return data.showContent;
-  }
-  function fullScreen() {
-    return data.fullScreen
-  }
+  const showContent = $derived(() => data.showContent ?? true);
+  const fullScreen = $derived(() => data.fullScreen ?? false);
 </script>
 
 <svelte:head>
@@ -55,9 +51,10 @@
     ></section>
     <section
       class="content"
-      class:showContent={showContent}
+      class:showContent
       class:hideContent={!showContent}
-      class:showFull={fullScreen}>
+      class:showFull={fullScreen}
+    >
       <div class="topbar"></div>
       <div class="余白"></div>
       <div class="slot">
