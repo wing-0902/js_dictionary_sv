@@ -14,25 +14,18 @@
   import SvHeader from '$lib/layouts/Header.svelte';
 
   // レイアウト変数
-  const showContent = $derived.by(() => {
-    if (page.url.pathname.startsWith('/content/')) {
-      return true;
-    } else {
-      return false;
-    }
-  });
-
-  const fullScreen = $derived.by(() => {
-    if (false) {
-      return true;
-    } else {
-      return false;
-    }
-  });
+  import { status } from '$lib/layouts/state.svelte';
 
   // SEO
-  import { pubDomain } from '$lib/envConfig';
+  import { pubDomain, defaultTitle } from '$lib/envConfig';
   const canonical = pubDomain + page.url.pathname;
+
+  let metaTitle: string = $state('');
+  if (status.title === defaultTitle || status.title === '') {
+    metaTitle = defaultTitle;
+  } else {
+    metaTitle = `${status.title} | ${defaultTitle}`;
+  }
 </script>
 
 <svelte:head>
@@ -40,6 +33,7 @@
     rel="canonical"
     href={canonical}
   />
+  <title>{metaTitle}</title>
 </svelte:head>
 
 <div class="body">
