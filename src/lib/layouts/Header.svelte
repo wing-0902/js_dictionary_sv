@@ -3,7 +3,7 @@
   import { page } from '$app/state';
 
   const isOnSearch = $derived(
-    page.url.pathname === '/' || page.url.pathname.startsWith('/content/')
+    page.url.pathname === '/' || page.url.pathname.startsWith('/content/') || page.url.pathname === "/404"
   );
 </script>
 

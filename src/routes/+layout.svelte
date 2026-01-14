@@ -25,7 +25,17 @@
   <header>
     <SvHeader />
   </header>
-  {@render children()}
+  <div class='contentSlot'>
+    <section class='searchSlot'></section>
+    <section class='content'>
+      <div class='topbar'></div>
+      <div class='余白'></div>
+      <div class='slot'>
+        {@render children()}
+      </div>
+      <div class='underbar'></div>
+    </section>
+  </div>
 </div>
 
 <style lang="scss">
