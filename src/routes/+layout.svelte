@@ -18,13 +18,12 @@
   import { pubDomain, defaultTitle } from '$lib/envConfig';
   const canonical = pubDomain + page.url.pathname;
 
-  const getTitle = $derived.by(() => {
-    if (data.title === defaultTitle) {
-      return defaultTitle;
-    } else {
-      return `${data.title} | defaultTitle`;
-    }
-  });
+  const title = $derived(() =>
+  data.title === defaultTitle
+    ? defaultTitle
+    : `${data.title} | ${defaultTitle}`
+);
+
 
   const showContent = $derived(() => data.showContent);
   const fullScreen = $derived(() => data.fullScreen);
@@ -35,7 +34,7 @@
     rel="canonical"
     href={canonical}
   />
-  <title>{getTitle}</title>
+  <title>{title()}</title>
 </svelte:head>
 
 <div class="body">
@@ -45,15 +44,15 @@
   <div class="contentSlot">
     <section
       class="searchSlot"
-      class:hideSearchSlot={showContent}
-      class:showSearchSlot={!showContent}
-      class:strictlyHidden={fullScreen}
+      class:hideSearchSlot={showContent()}
+      class:showSearchSlot={!showContent()}
+      class:strictlyHidden={fullScreen()}
     ></section>
     <section
       class="content"
-      class:showContent={showContent}
-      class:hideContent={!showContent}
-      class:showFull={fullScreen}
+      class:showContent={showContent()}
+      class:hideContent={!showContent()}
+      class:showFull={fullScreen()}
     >
       <div class="topbar"></div>
       <div class="余白"></div>
