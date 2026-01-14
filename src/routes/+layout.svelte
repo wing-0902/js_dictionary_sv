@@ -51,7 +51,7 @@
     ></section>
     <section
       class="content"
-      class:showContent
+      class:showContent={showContent}
       class:hideContent={!showContent}
       class:showFull={fullScreen}
     >
@@ -122,7 +122,7 @@
     }
   }
   @media (max-width: 830px) {
-    body {
+    .body {
       .contentSlot {
         .hideSearchSlot {
           display: none !important;
