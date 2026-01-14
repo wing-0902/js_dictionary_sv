@@ -14,6 +14,21 @@
   import SvHeader from '$lib/layouts/Header.svelte';
 
   // レイアウト変数
+  const showContent = $derived.by(() => {
+    if (page.url.pathname.startsWith('/content/')) {
+      return true;
+    } else {
+      return false;
+    }
+  });
+
+  const fullScreen = $derived.by(() => {
+    if (false) {
+      return true;
+    } else {
+      return false;
+    }
+  });
 
   // SEO
   import { pubDomain } from '$lib/envConfig';
@@ -21,22 +36,34 @@
 </script>
 
 <svelte:head>
-  <link rel='canonical' href={canonical} />
+  <link
+    rel="canonical"
+    href={canonical}
+  />
 </svelte:head>
 
 <div class="body">
   <header>
     <SvHeader />
   </header>
-  <div class='contentSlot'>
-    <section class='searchSlot'></section>
-    <section class='content'>
-      <div class='topbar'></div>
-      <div class='余白'></div>
-      <div class='slot'>
+  <div class="contentSlot">
+    <section
+      class="searchSlot"
+      class:hideSearchSlot={showContent}
+      class:showSearchSlot={!showContent}
+      class:strictlyHidden={fullScreen}
+    ></section>
+    <section
+      class="content"
+      class:showContent={showContent}
+      class:hideContent={!showContent}
+      class:showFull={fullScreen}>
+      <div class="topbar"></div>
+      <div class="余白"></div>
+      <div class="slot">
         {@render children()}
       </div>
-      <div class='underbar'></div>
+      <div class="underbar"></div>
     </section>
   </div>
 </div>

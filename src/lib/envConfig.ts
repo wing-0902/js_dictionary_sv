@@ -1,1 +1,1 @@
-export const pubDomain = 'https://js.dictionary4.dev'
+export const pubDomain = 'https://js.dictionary4.dev';
