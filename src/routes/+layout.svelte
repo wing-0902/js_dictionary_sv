@@ -19,11 +19,8 @@
   const canonical = pubDomain + page.url.pathname;
 
   const title = $derived(() =>
-  data.title === defaultTitle
-    ? defaultTitle
-    : `${data.title} | ${defaultTitle}`
-);
-
+    data.title === defaultTitle ? defaultTitle : `${data.title} | ${defaultTitle}`
+  );
 
   const showContent = $derived(() => data.showContent);
   const fullScreen = $derived(() => data.fullScreen);
