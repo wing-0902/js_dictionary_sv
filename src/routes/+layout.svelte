@@ -1,6 +1,6 @@
 <script lang="ts">
-  import favicon from '$lib/assets/favicon.svg';
   import '$lib/styles/global.scss';
+  import { page } from '$app/state';
 
   // フォント
   import '@fontsource/zen-kaku-gothic-new';
@@ -12,13 +12,16 @@
 
   // コンポーネント
   import SvHeader from '$lib/layouts/Header.svelte';
+
+  // レイアウト変数
+
+  // SEO
+  import { pubDomain } from '$lib/envConfig';
+  const canonical = pubDomain + page.url.pathname;
 </script>
 
 <svelte:head>
-  <link
-    rel="icon"
-    href={favicon}
-  />
+  <link rel='canonical' href={canonical} />
 </svelte:head>
 
 <div class="body">
