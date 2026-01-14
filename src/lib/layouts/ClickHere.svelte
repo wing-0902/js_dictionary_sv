@@ -18,6 +18,25 @@ function copyUrlScheme() {
     alert('この環境では利用できません．');
   }
 }
+
+const appShareData = {
+  title: 'JavaScript - Dictionary for Dev',
+  text: 'JavaScriptのコードを辞書で検索しましょう．オリジナルの辞書も作れますよ．',
+  url: 'https://js.dictionary4.dev'
+};
+
+function shareThisApp() {
+  try {
+    if (navigator.share) {
+      navigator.share(appShareData);
+      console.log('共有完了');
+    } else {
+      alert('このブラウザでは使用できないメニューです');
+    }
+  } catch (err) {
+    alert('不明なエラー：', err);
+  }
+}
 </script>
 
 <div class="root">
@@ -52,7 +71,7 @@ function copyUrlScheme() {
       <a href="/form/report/">バグ報告</a>
     </div>
     <div class="rowGr">
-      <a>このAppを共有</a>
+      <a onclick={shareThisApp}>このAppを共有</a>
       <a onclick={copyUrlScheme}>URLスキームをコピー</a>
     </div>
   </div>
