@@ -1,5 +1,23 @@
 <script lang="ts">
   let isOpen = $state(false);
+
+  const urlScheme = 'js.dictionary4.dev/?q=<文字列>';
+
+function copyUrlScheme() {
+  event?.preventDefault();
+  if (navigator.clipboard) {
+    navigator.clipboard
+      .writeText(urlScheme)
+      .then(() => {
+        alert(`URLスキームをコピーしました．\nURLスキーム：${urlScheme}`);
+      })
+      .catch((err) => {
+        console.error('コピーに失敗しました: ', err);
+      });
+  } else {
+    alert('この環境では利用できません．');
+  }
+}
 </script>
 
 <div class="root">
@@ -35,7 +53,7 @@
     </div>
     <div class="rowGr">
       <a>このAppを共有</a>
-      <a>URLスキームをコピー</a>
+      <a onclick={copyUrlScheme}>URLスキームをコピー</a>
     </div>
   </div>
 
