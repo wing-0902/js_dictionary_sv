@@ -3,40 +3,40 @@
 
   const urlScheme = 'js.dictionary4.dev/?q=<文字列>';
 
-function copyUrlScheme() {
-  event?.preventDefault();
-  if (navigator.clipboard) {
-    navigator.clipboard
-      .writeText(urlScheme)
-      .then(() => {
-        alert(`URLスキームをコピーしました．\nURLスキーム：${urlScheme}`);
-      })
-      .catch((err) => {
-        console.error('コピーに失敗しました: ', err);
-      });
-  } else {
-    alert('この環境では利用できません．');
-  }
-}
-
-const appShareData = {
-  title: 'JavaScript - Dictionary for Dev',
-  text: 'JavaScriptのコードを辞書で検索しましょう．オリジナルの辞書も作れますよ．',
-  url: 'https://js.dictionary4.dev'
-};
-
-function shareThisApp() {
-  try {
-    if (navigator.share) {
-      navigator.share(appShareData);
-      console.log('共有完了');
+  function copyUrlScheme() {
+    event?.preventDefault();
+    if (navigator.clipboard) {
+      navigator.clipboard
+        .writeText(urlScheme)
+        .then(() => {
+          alert(`URLスキームをコピーしました．\nURLスキーム：${urlScheme}`);
+        })
+        .catch((err) => {
+          console.error('コピーに失敗しました: ', err);
+        });
     } else {
-      alert('このブラウザでは使用できないメニューです');
+      alert('この環境では利用できません．');
     }
-  } catch (err) {
-    alert('不明なエラー：', err);
   }
-}
+
+  const appShareData = {
+    title: 'JavaScript - Dictionary for Dev',
+    text: 'JavaScriptのコードを辞書で検索しましょう．オリジナルの辞書も作れますよ．',
+    url: 'https://js.dictionary4.dev'
+  };
+
+  function shareThisApp() {
+    try {
+      if (navigator.share) {
+        navigator.share(appShareData);
+        console.log('共有完了');
+      } else {
+        alert('このブラウザでは使用できないメニューです');
+      }
+    } catch (err) {
+      alert('不明なエラー：', err);
+    }
+  }
 </script>
 
 <div class="root">
