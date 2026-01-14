@@ -26,8 +26,8 @@
     }
   });
 
-  const showContent = $derived(() => data.showContent ?? true);
-  const fullScreen = $derived(() => data.fullScreen ?? false);
+  const showContent = $derived(() => data.showContent);
+  const fullScreen = $derived(() => data.fullScreen);
 </script>
 
 <svelte:head>
