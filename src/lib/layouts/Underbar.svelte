@@ -1,27 +1,26 @@
-<script lang='ts'>
+<script lang="ts">
   import { page } from '$app/state';
-import Share from './UnderShare.svelte';
+  import Share from './UnderShare.svelte';
   import { pubDomain } from '$lib/envConfig';
 
-interface Props {
-  showShare?: boolean;
-  shareTitle?: string;
-}
+  interface Props {
+    showShare?: boolean;
+    shareTitle?: string;
+  }
 
-const { showShare = false, shareTitle = '' } = $props();
+  const { showShare = false, shareTitle = '' } = $props();
 
-const canonical = pubDomain + page.url.pathname;
+  const canonical = pubDomain + page.url.pathname;
 </script>
 
 <div class="root">
   <div class="left"></div>
   <div class="center">
-    {#if 
-      showShare}
-        <Share
-          shareTitle={shareTitle}
-          shareUrl={canonical}
-        />
+    {#if showShare}
+      <Share
+        {shareTitle}
+        shareUrl={canonical}
+      />
       )
     {/if}
   </div>

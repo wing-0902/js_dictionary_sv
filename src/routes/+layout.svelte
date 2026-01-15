@@ -68,7 +68,10 @@
         {@render children()}
       </div>
       <div class="underbar">
-        <SvUnderbar showShare={page.data.showShare} shareTitle={title} />
+        <SvUnderbar
+          showShare={page.data.showShare}
+          shareTitle={title}
+        />
       </div>
     </section>
   </div>
