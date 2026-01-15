@@ -3,11 +3,6 @@
   import Share from './UnderShare.svelte';
   import { pubDomain } from '$lib/envConfig';
 
-  interface Props {
-    showShare?: boolean;
-    shareTitle?: string;
-  }
-
   const { showShare = false, shareTitle = '' } = $props();
 
   const canonical = pubDomain + page.url.pathname;
