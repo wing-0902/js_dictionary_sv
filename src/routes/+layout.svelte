@@ -53,7 +53,7 @@
       class:showFull={page.data.fullScreen}
     >
       <div class="topbar">
-        <SvTopbar title={page.data.topbarTitle} href={page.data.header} notShow={page.data.fullScreen} />
+        <SvTopbar title={page.data.topbarTitle || page.data.title} href={page.data.header} notShow={page.data.fullScreen} />
       </div>
       <div class="余白"></div>
       <div class="slot">
