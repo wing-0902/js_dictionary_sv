@@ -303,6 +303,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource-variable/material-symbols-rounded@npm:^5.2.30":
+  version: 5.2.30
+  resolution: "@fontsource-variable/material-symbols-rounded@npm:5.2.30"
+  checksum: 10c0/1bcbf0892f252beea477c7de3b7e12c3339a7b37961c1ba820c84e0618c2abb9970e2bd7938404dad80df97cc82f6c78b4a4be32b00e5bf6bf6663eaa0608154
+  languageName: node
+  linkType: hard
+
 "@fontsource/zen-kaku-gothic-new@npm:^5.2.7":
   version: 5.2.7
   resolution: "@fontsource/zen-kaku-gothic-new@npm:5.2.7"
@@ -1833,6 +1840,7 @@ __metadata:
     "@eslint/js": "npm:^9.39.1"
     "@fontsource-variable/fira-code": "npm:^5.2.7"
     "@fontsource-variable/m-plus-1-code": "npm:^5.2.9"
+    "@fontsource-variable/material-symbols-rounded": "npm:^5.2.30"
     "@fontsource/zen-kaku-gothic-new": "npm:^5.2.7"
     "@fontsource/zen-maru-gothic": "npm:^5.2.8"
     "@sveltejs/adapter-static": "npm:^3.0.10"

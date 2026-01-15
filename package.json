@@ -36,6 +36,7 @@
   "dependencies": {
     "@fontsource-variable/fira-code": "^5.2.7",
     "@fontsource-variable/m-plus-1-code": "^5.2.9",
+    "@fontsource-variable/material-symbols-rounded": "^5.2.30",
     "@fontsource/zen-kaku-gothic-new": "^5.2.7",
     "@fontsource/zen-maru-gothic": "^5.2.8",
     "sass": "^1.97.2"

@@ -7,12 +7,16 @@
   import '@fontsource-variable/fira-code';
   import '@fontsource-variable/m-plus-1-code';
   import '@fontsource/zen-maru-gothic';
+  // アイコン
+  import '@fontsource-variable/material-symbols-rounded';
+  import '$lib/styles/icons.scss';
 
   import type { PageData } from './$types';
   const { children, data } = $props<{ data: PageData }>();
 
   // コンポーネント
   import SvHeader from '$lib/layouts/Header.svelte';
+  import SvTopbar from '$lib/layouts/Topbar.svelte';
 
   // SEO
   import { pubDomain, defaultTitle } from '$lib/envConfig';
@@ -48,7 +52,9 @@
       class:hideContent={!page.data.showContent}
       class:showFull={page.data.fullScreen}
     >
-      <div class="topbar"></div>
+      <div class="topbar">
+        <SvTopbar title={page.data.topbarTitle} href={page.data.header} notShow={page.data.fullScreen} />
+      </div>
       <div class="余白"></div>
       <div class="slot">
         {@render children()}
