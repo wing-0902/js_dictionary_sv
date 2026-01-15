@@ -39,6 +39,8 @@
     "@fontsource-variable/material-symbols-rounded": "^5.2.30",
     "@fontsource/zen-kaku-gothic-new": "^5.2.7",
     "@fontsource/zen-maru-gothic": "^5.2.8",
-    "sass": "^1.97.2"
+    "html2canvas": "^1.4.1",
+    "sass": "^1.97.2",
+    "uqr": "^0.1.2"
   }
 }
