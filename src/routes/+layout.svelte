@@ -18,6 +18,7 @@
   import SvHeader from '$lib/layouts/Header.svelte';
   import SvTopbar from '$lib/layouts/Topbar.svelte';
   import SvSidebar from '$lib/layouts/Sidebar.svelte';
+  import SvUnderbar from '$lib/layouts/Underbar.svelte';
 
   // SEO
   import { pubDomain, defaultTitle } from '$lib/envConfig';
@@ -66,7 +67,9 @@
       <div class="slot">
         {@render children()}
       </div>
-      <div class="underbar"></div>
+      <div class="underbar">
+        <SvUnderbar />
+      </div>
     </section>
   </div>
 </div>
