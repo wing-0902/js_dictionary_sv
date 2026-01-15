@@ -52,11 +52,6 @@
   export let shareTitle: string;
   export let shareUrl: string;
 
-  import Share from '$components/Icons/iOS_Share.svelte';
-  import Copy from '$components/Icons/Copy.svg.svelte';
-  import QRCode from '$components/Icons/QRCode.svg.svelte';
-  import GoDown from '$components/Icons/GoDown.svg.svelte';
-
   let open = false;
 
   function handleClick() {
