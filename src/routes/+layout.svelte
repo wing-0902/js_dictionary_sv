@@ -21,7 +21,6 @@
   const title = $derived(
     page.data.title === defaultTitle ? defaultTitle : `${page.data.title} | ${defaultTitle}`
   );
-
 </script>
 
 <svelte:head>

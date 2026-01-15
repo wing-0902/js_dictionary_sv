@@ -2,12 +2,6 @@
   import ClickHere from './ClickHere.svelte';
   import { page } from '$app/state';
 
-  const isOnSearch = $derived(
-    page.url.pathname === '/' ||
-      page.url.pathname.startsWith('/content/') ||
-      page.url.pathname === '/404'
-  );
-
   const { headerContent } = $props();
 </script>
 
@@ -45,8 +39,6 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    .dummy {
-    }
     .nav {
       display: flex;
       a {
@@ -69,8 +61,6 @@
           }
         }
       }
-    }
-    .clickHere {
     }
   }
 </style>
