@@ -17,9 +17,9 @@
     <a href="/">
       <div
         class="linkInside"
-        class:色付き={headerContent === "search"}
+        class:色付き={headerContent === 'search'}
       >
-      {headerContent}
+        {headerContent}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="24px"
