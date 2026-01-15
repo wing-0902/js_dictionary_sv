@@ -19,13 +19,9 @@
   const canonical = pubDomain + page.url.pathname;
 
   const title = $derived(
-    data.title === defaultTitle ? defaultTitle : `${data.title} | ${defaultTitle}`
+    page.data.title === defaultTitle ? defaultTitle : `${page.data.title} | ${defaultTitle}`
   );
 
-  const showContent = $derived(data.showContent);
-  const fullScreen = $derived(data.fullScreen);
-  const topbarTitle = $derived(data.topbarTitle || data.title);
-  const header = $derived(data.header);
 </script>
 
 <svelte:head>
@@ -38,21 +34,20 @@
 
 <div class="body">
   <header>
-      {showContent}
-    <SvHeader headerContent={header} />
+    <SvHeader headerContent={page.data.header} />
   </header>
   <div class="contentSlot">
     <section
       class="searchSlot"
-      class:hideSearchSlot={showContent}
-      class:showSearchSlot={!showContent}
-      class:strictlyHidden={fullScreen}
+      class:hideSearchSlot={page.data.showContent}
+      class:showSearchSlot={!page.data.showContent}
+      class:strictlyHidden={page.data.fullScreen}
     ></section>
     <section
       class="content"
-      class:showContent
-      class:hideContent={!showContent}
-      class:showFull={fullScreen}
+      class:showContent={page.data.showContent}
+      class:hideContent={!page.data.showContent}
+      class:showFull={page.data.fullScreen}
     >
       <div class="topbar"></div>
       <div class="余白"></div>

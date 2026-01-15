@@ -5,11 +5,10 @@
 export const prerender = true;
 export const trailingSlash = 'always';
 import { defaultTitle, defaultDescription } from '$lib/envConfig';
-import type { PageLoad } from './$types';
+import type { LayoutLoad } from './$types';
 
 // バケツリレー
-export const load: PageLoad = () => {
-  console.log('LAYOUT RUNNING');
+export const load: LayoutLoad = async () => {
   return {
     title: defaultTitle,
     description: defaultDescription,
@@ -18,4 +17,4 @@ export const load: PageLoad = () => {
     topbarTitle: '',
     header: ''
   };
-}
+};

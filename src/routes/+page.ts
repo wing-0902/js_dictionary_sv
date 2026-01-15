@@ -1,6 +1,6 @@
 import type { PageLoad } from './$types';
 
-export const load: PageLoad = () => {
+export const load: PageLoad = ({ params }) => {
   console.log('PAGE LOAD RUNNING');
   return {
     topbarTitle: 'Welcome!',

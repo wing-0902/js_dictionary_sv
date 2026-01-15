@@ -1,5 +1,6 @@
 export function load() {
   return {
-    title: 'Not Found'
+    title: 'Not Found',
+    header: 'search'
   };
 }
