@@ -18,7 +18,7 @@
   });
 </script>
 
-{#if true}
+{#if show}
   <div class="root">
     <p>
       <a href={linkHref}>
