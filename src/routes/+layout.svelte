@@ -54,7 +54,6 @@
       class:showFull={fullScreen()}
     >
       <div class="topbar">
-        
       </div>
       <div class="余白"></div>
       <div class="slot">
