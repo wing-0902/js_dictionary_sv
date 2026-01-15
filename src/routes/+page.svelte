@@ -1,5 +1,6 @@
 <script lang="ts">
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1>ようこそ</h1>
+<h2>このアプリについて</h2>
+<p>このアプリは，JavaScript・TypeScriptで用いる構文やキーワードを調べる辞書のようなものです．</p>
