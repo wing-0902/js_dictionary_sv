@@ -1,6 +1,5 @@
 <script lang="ts">
   import ClickHere from './ClickHere.svelte';
-  import { page } from '$app/state';
 
   const { headerContent } = $props();
 </script>
