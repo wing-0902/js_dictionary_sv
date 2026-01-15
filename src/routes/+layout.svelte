@@ -24,6 +24,8 @@
 
   const showContent = $derived(() => data.showContent);
   const fullScreen = $derived(() => data.fullScreen);
+  const topbarTitle = $derived(() => data.topbarTitle || data.title);
+  const header = $derived(() => data.header);
 </script>
 
 <svelte:head>
@@ -36,7 +38,7 @@
 
 <div class="body">
   <header>
-    <SvHeader />
+    <SvHeader headerContent={header()} />
   </header>
   <div class="contentSlot">
     <section
@@ -51,7 +53,9 @@
       class:hideContent={!showContent()}
       class:showFull={fullScreen()}
     >
-      <div class="topbar"></div>
+      <div class="topbar">
+        
+      </div>
       <div class="余白"></div>
       <div class="slot">
         {@render children()}

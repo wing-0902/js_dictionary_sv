@@ -12,6 +12,8 @@ export function load() {
     title: defaultTitle,
     description: defaultDescription,
     showContent: true,
-    fullScreen: false
+    fullScreen: false,
+    topbarTitle: '',
+    header: '',
   };
 }

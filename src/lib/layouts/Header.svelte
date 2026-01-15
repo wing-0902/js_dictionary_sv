@@ -7,6 +7,8 @@
       page.url.pathname.startsWith('/content/') ||
       page.url.pathname === '/404'
   );
+
+  const { headerContent } = $props();
 </script>
 
 <div class="root">
@@ -15,8 +17,9 @@
     <a href="/">
       <div
         class="linkInside"
-        class:色付き={isOnSearch}
+        class:色付き={headerContent === "search"}
       >
+      {headerContent}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="24px"
