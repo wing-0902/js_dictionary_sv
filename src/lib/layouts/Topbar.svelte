@@ -1,14 +1,14 @@
-<script lang='ts'>
-const { title = '', href = '検索', notShow = false } = $props();
+<script lang="ts">
+  const { title = '', href = '検索', notShow = false } = $props();
 
-import ReturnLink from './TopReturn.svelte';
+  import ReturnLink from './TopReturn.svelte';
 </script>
 
 <div class="root">
   <div class="return">
     <div class="returnLink">
       <ReturnLink
-        href={href}
+        {href}
         show={!notShow}
       />
     </div>

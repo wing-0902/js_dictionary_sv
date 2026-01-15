@@ -22,7 +22,7 @@
   <div class="root">
     <p>
       <a href={linkHref}>
-        <span class='icon-rounded'>arrow_back_ios</span>
+        <span class="icon-rounded">arrow_back_ios</span>
         <span>戻る</span>
       </a>
     </p>

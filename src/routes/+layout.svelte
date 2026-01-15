@@ -17,6 +17,7 @@
   // コンポーネント
   import SvHeader from '$lib/layouts/Header.svelte';
   import SvTopbar from '$lib/layouts/Topbar.svelte';
+  import SvSidebar from '$lib/layouts/Sidebar.svelte';
 
   // SEO
   import { pubDomain, defaultTitle } from '$lib/envConfig';
@@ -45,7 +46,9 @@
       class:hideSearchSlot={page.data.showContent}
       class:showSearchSlot={!page.data.showContent}
       class:strictlyHidden={page.data.fullScreen}
-    ></section>
+    >
+      <SvSidebar />
+    </section>
     <section
       class="content"
       class:showContent={page.data.showContent}
@@ -53,7 +56,11 @@
       class:showFull={page.data.fullScreen}
     >
       <div class="topbar">
-        <SvTopbar title={page.data.topbarTitle || page.data.title} href={page.data.header} notShow={page.data.fullScreen} />
+        <SvTopbar
+          title={page.data.topbarTitle || page.data.title}
+          href={page.data.header}
+          notShow={page.data.fullScreen}
+        />
       </div>
       <div class="余白"></div>
       <div class="slot">
