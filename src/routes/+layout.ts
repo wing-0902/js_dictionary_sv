@@ -15,6 +15,7 @@ export const load: LayoutLoad = async () => {
     showContent: true,
     fullScreen: false,
     topbarTitle: '',
-    header: ''
+    header: '',
+    leftComponent: 'Search'
   };
 };

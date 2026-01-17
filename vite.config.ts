@@ -5,6 +5,6 @@ import pkg from './package.json' assert { type: 'json' };
 export default defineConfig({
   plugins: [sveltekit()],
   define: {
-    __APP_VERSION__: JSON.stringify(pkg.version),
+    __APP_VERSION__: JSON.stringify(pkg.version)
   }
 });

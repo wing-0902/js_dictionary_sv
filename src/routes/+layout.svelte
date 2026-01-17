@@ -39,7 +39,10 @@
     href={canonical}
   />
   <title>{title}</title>
-  <meta name="generator" content={generatorName} />
+  <meta
+    name="generator"
+    content={generatorName}
+  />
 </svelte:head>
 
 <div class="body">
