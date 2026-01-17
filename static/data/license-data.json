@@ -1,0 +1,188 @@
+{
+  "@fontsource-variable/fira-code@5.2.7": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/fira-code",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/fira-code/LICENSE"
+  },
+  "@fontsource-variable/m-plus-1-code@5.2.9": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/m-plus-1-code",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/m-plus-1-code/LICENSE"
+  },
+  "@fontsource-variable/material-symbols-rounded@5.2.30": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/material-symbols-rounded",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/material-symbols-rounded/LICENSE"
+  },
+  "@fontsource/zen-kaku-gothic-new@5.2.7": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource/zen-kaku-gothic-new",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource/zen-kaku-gothic-new/LICENSE"
+  },
+  "@fontsource/zen-maru-gothic@5.2.8": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource/zen-maru-gothic",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource/zen-maru-gothic/LICENSE"
+  },
+  "@parcel/watcher-linux-x64-glibc@2.5.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/parcel-bundler/watcher",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@parcel/watcher-linux-x64-glibc",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@parcel/watcher-linux-x64-glibc/LICENSE"
+  },
+  "@parcel/watcher@2.5.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/parcel-bundler/watcher",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@parcel/watcher",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@parcel/watcher/LICENSE"
+  },
+  "base64-arraybuffer@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/base64-arraybuffer",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/base64-arraybuffer",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/base64-arraybuffer/LICENSE"
+  },
+  "chokidar@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/chokidar",
+    "publisher": "Paul Miller",
+    "url": "https://paulmillr.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/chokidar",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/chokidar/LICENSE"
+  },
+  "css-line-break@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/css-line-break",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/css-line-break",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/css-line-break/LICENSE"
+  },
+  "detect-libc@2.1.2": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/lovell/detect-libc",
+    "publisher": "Lovell Fuller",
+    "email": "npm@lovell.info",
+    "path": "/workspaces/js_dictionary_sv/node_modules/detect-libc",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/detect-libc/LICENSE"
+  },
+  "html2canvas@1.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/html2canvas",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/html2canvas",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/html2canvas/LICENSE"
+  },
+  "immutable@5.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/immutable-js/immutable-js",
+    "publisher": "Lee Byron",
+    "url": "https://github.com/leebyron",
+    "path": "/workspaces/js_dictionary_sv/node_modules/immutable",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/immutable/LICENSE"
+  },
+  "is-extglob@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-extglob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/workspaces/js_dictionary_sv/node_modules/is-extglob",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/is-extglob/LICENSE"
+  },
+  "is-glob@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/is-glob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/workspaces/js_dictionary_sv/node_modules/is-glob",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/is-glob/LICENSE"
+  },
+  "js-dictionary-sv@0.0.1": {
+    "licenses": "UNLICENSED",
+    "private": true,
+    "path": "/workspaces/js_dictionary_sv",
+    "licenseFile": "/workspaces/js_dictionary_sv/README.md"
+  },
+  "node-addon-api@7.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/node-addon-api",
+    "path": "/workspaces/js_dictionary_sv/node_modules/node-addon-api",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/node-addon-api/LICENSE.md"
+  },
+  "picomatch@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/picomatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/workspaces/js_dictionary_sv/node_modules/picomatch",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/picomatch/LICENSE"
+  },
+  "readdirp@4.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/readdirp",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "thlorenz.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/readdirp",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/readdirp/LICENSE"
+  },
+  "sass@1.97.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sass/dart-sass",
+    "publisher": "Natalie Weizenbaum",
+    "email": "nweiz@google.com",
+    "url": "https://github.com/nex3",
+    "path": "/workspaces/js_dictionary_sv/node_modules/sass",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/sass/LICENSE"
+  },
+  "source-map-js@1.2.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/7rulnik/source-map-js",
+    "publisher": "Valentin 7rulnik Semirulnik",
+    "email": "v7rulnik@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/source-map-js",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/source-map-js/LICENSE"
+  },
+  "text-segmentation@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/text-segmentation",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/text-segmentation",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/text-segmentation/LICENSE"
+  },
+  "uqr@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/unjs/uqr",
+    "publisher": "Anthony Fu",
+    "email": "anthonyfu117@hotmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/uqr",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/uqr/LICENSE"
+  },
+  "utrie@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/utrie",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/utrie",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/utrie/LICENSE"
+  }
+}
