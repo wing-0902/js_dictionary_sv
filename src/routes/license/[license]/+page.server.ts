@@ -1,33 +1,36 @@
-import rawLicenses from "$lib/data/license-data.json";
-
+import licenses from "$lib/data/license-dat.json";
+import { error } from "@sveltejs/kit";
 export const prerender = true;
 
-type LicenseInfo = {
-  licenses: string;
+// vite-plugin-license の出力に合わせた型定義
+type LicenseEntry = {
+  name: string;
+  version: string;
+  license: string;
+  licenseText: string;
+  author?: string;
   repository?: string;
-  publisher?: string;
-  path: string;
-  licenseFile: string;
 };
 
-const licenses = rawLicenses as Record<string, LicenseInfo>;
-
 export function entries() {
-  return Object.keys(licenses).map(name => ({
-    license: name.replaceAll("/", "__")
+  // 配列をループして、nameプロパティからURL用パスを生成
+  return licenses.map((pkg) => ({
+    license: pkg.name.replaceAll("/", "__")
   }));
 }
 
 export function load({ params }) {
-  const original = params.license.replaceAll("__", "/");
-  const info = licenses[original];
+  // パラメータの __ を / に戻して、配列内を検索
+  const originalName = params.license.replaceAll("__", "/");
+  const info = licenses.find((pkg) => pkg.name === originalName);
 
   if (!info) {
-    throw new Error("Package Not Found");
+    // 404エラーを投げる（SvelteKit標準のerrorを使うのが一般的）
+    throw error(404, { message: "Package Not Found" });
   }
 
   return {
-    name: original,
+    name: originalName,
     info
   };
 }
