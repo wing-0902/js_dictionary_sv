@@ -69,8 +69,8 @@
             <small>v{pkg.version}</small>
           </a>
         </li>
+        <div class='spacer'></div>
       {/each}
-      <div class='spacer'></div>
     </ul>
   </div>
 </div>
