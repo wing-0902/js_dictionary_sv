@@ -1,0 +1,4 @@
+{
+  "name": "JS Dictionary SV",
+  "postCreateCommand": "corepack enable && yarn install"
+}
