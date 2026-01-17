@@ -1,0 +1,1964 @@
+{
+  "@esbuild/linux-x64@0.27.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/evanw/esbuild",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@esbuild/linux-x64",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@esbuild/linux-x64/README.md"
+  },
+  "@eslint-community/eslint-utils@4.9.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint-community/eslint-utils",
+    "publisher": "Toru Nagashima",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint-community/eslint-utils",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint-community/eslint-utils/LICENSE"
+  },
+  "@eslint-community/regexpp@4.12.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint-community/regexpp",
+    "publisher": "Toru Nagashima",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint-community/regexpp",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint-community/regexpp/LICENSE"
+  },
+  "@eslint/compat@1.4.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/rewrite",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint/compat",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint/compat/LICENSE"
+  },
+  "@eslint/config-array@0.21.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/rewrite",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint/config-array",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint/config-array/LICENSE"
+  },
+  "@eslint/config-helpers@0.4.2": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/rewrite",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint/config-helpers",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint/config-helpers/LICENSE"
+  },
+  "@eslint/core@0.17.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/rewrite",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint/core",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint/core/LICENSE"
+  },
+  "@eslint/eslintrc@3.3.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint/eslintrc",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint/eslintrc",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint/eslintrc/LICENSE"
+  },
+  "@eslint/js@9.39.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint/eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint/js",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint/js/LICENSE"
+  },
+  "@eslint/object-schema@2.1.7": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/rewrite",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint/object-schema",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint/object-schema/LICENSE"
+  },
+  "@eslint/plugin-kit@0.4.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/rewrite",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint/plugin-kit",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint/plugin-kit/LICENSE"
+  },
+  "@fontsource-variable/fira-code@5.2.7": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/fira-code",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/fira-code/LICENSE"
+  },
+  "@fontsource-variable/m-plus-1-code@5.2.9": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/m-plus-1-code",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/m-plus-1-code/LICENSE"
+  },
+  "@fontsource-variable/material-symbols-rounded@5.2.30": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/material-symbols-rounded",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource-variable/material-symbols-rounded/LICENSE"
+  },
+  "@fontsource/zen-kaku-gothic-new@5.2.7": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource/zen-kaku-gothic-new",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource/zen-kaku-gothic-new/LICENSE"
+  },
+  "@fontsource/zen-maru-gothic@5.2.8": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/fontsource/font-files",
+    "publisher": "Google Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@fontsource/zen-maru-gothic",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@fontsource/zen-maru-gothic/LICENSE"
+  },
+  "@humanfs/core@0.19.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/humanwhocodes/humanfs",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@humanfs/core",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@humanfs/core/LICENSE"
+  },
+  "@humanfs/node@0.16.7": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/humanwhocodes/humanfs",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@humanfs/node",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@humanfs/node/LICENSE"
+  },
+  "@humanwhocodes/module-importer@1.0.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/humanwhocodes/module-importer",
+    "publisher": "Nicholas C. Zaks",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@humanwhocodes/module-importer",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@humanwhocodes/module-importer/LICENSE"
+  },
+  "@humanwhocodes/retry@0.4.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/humanwhocodes/retry",
+    "publisher": "Nicholas C. Zaks",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@humanwhocodes/retry",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@humanwhocodes/retry/LICENSE"
+  },
+  "@isaacs/balanced-match@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/balanced-match",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@isaacs/balanced-match",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@isaacs/balanced-match/LICENSE.md"
+  },
+  "@isaacs/brace-expansion@5.0.0": {
+    "licenses": "MIT",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@isaacs/brace-expansion",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@isaacs/brace-expansion/LICENSE"
+  },
+  "@isaacs/fs-minipass@4.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fs-minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@isaacs/fs-minipass",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@isaacs/fs-minipass/LICENSE"
+  },
+  "@jridgewell/gen-mapping@0.3.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/sourcemaps",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/gen-mapping",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/gen-mapping/LICENSE"
+  },
+  "@jridgewell/remapping@2.3.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/sourcemaps",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/remapping",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/remapping/LICENSE"
+  },
+  "@jridgewell/resolve-uri@3.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/resolve-uri",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/resolve-uri",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/resolve-uri/LICENSE"
+  },
+  "@jridgewell/sourcemap-codec@1.5.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/sourcemaps",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/sourcemap-codec",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/sourcemap-codec/LICENSE"
+  },
+  "@jridgewell/trace-mapping@0.3.31": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/sourcemaps",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/trace-mapping",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@jridgewell/trace-mapping/LICENSE"
+  },
+  "@npmcli/agent@4.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/agent",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@npmcli/agent",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@npmcli/agent/README.md"
+  },
+  "@npmcli/fs@5.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fs",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@npmcli/fs",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@npmcli/fs/LICENSE.md"
+  },
+  "@parcel/watcher-linux-x64-glibc@2.5.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/parcel-bundler/watcher",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@parcel/watcher-linux-x64-glibc",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@parcel/watcher-linux-x64-glibc/LICENSE"
+  },
+  "@parcel/watcher@2.5.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/parcel-bundler/watcher",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@parcel/watcher",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@parcel/watcher/LICENSE"
+  },
+  "@polka/url@1.0.0-next.29": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/polka",
+    "publisher": "Luke Edwards",
+    "email": "luke@lukeed.com",
+    "url": "https://lukeed.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@polka/url",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@polka/url/readme.md"
+  },
+  "@rollup/rollup-linux-x64-gnu@4.55.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/rollup/rollup",
+    "publisher": "Lukas Taegert-Atkinson",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@rollup/rollup-linux-x64-gnu",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@rollup/rollup-linux-x64-gnu/README.md"
+  },
+  "@standard-schema/spec@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/standard-schema/standard-schema",
+    "publisher": "Colin McDonnell",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@standard-schema/spec",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@standard-schema/spec/LICENSE"
+  },
+  "@sveltejs/acorn-typescript@1.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/acorn-typescript",
+    "publisher": "tyrealhu and the Svelte team",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/acorn-typescript",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/acorn-typescript/LICENSE.md"
+  },
+  "@sveltejs/adapter-static@3.0.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/kit",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/adapter-static",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/adapter-static/LICENSE"
+  },
+  "@sveltejs/kit@2.49.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/kit",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/kit",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/kit/LICENSE"
+  },
+  "@sveltejs/vite-plugin-svelte-inspector@5.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/vite-plugin-svelte",
+    "publisher": "dominikg",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/vite-plugin-svelte-inspector",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/vite-plugin-svelte-inspector/LICENSE"
+  },
+  "@sveltejs/vite-plugin-svelte@6.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/vite-plugin-svelte",
+    "publisher": "dominikg",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/vite-plugin-svelte",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@sveltejs/vite-plugin-svelte/LICENSE"
+  },
+  "@types/cookie@0.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@types/cookie",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@types/cookie/LICENSE"
+  },
+  "@types/estree@1.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@types/estree",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@types/estree/LICENSE"
+  },
+  "@types/json-schema@7.0.15": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@types/json-schema",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@types/json-schema/LICENSE"
+  },
+  "@types/node@24.10.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@types/node",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@types/node/LICENSE"
+  },
+  "@typescript-eslint/eslint-plugin@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/eslint-plugin",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/eslint-plugin/LICENSE"
+  },
+  "@typescript-eslint/parser@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/parser",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/parser/LICENSE"
+  },
+  "@typescript-eslint/project-service@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/project-service",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/project-service/LICENSE"
+  },
+  "@typescript-eslint/scope-manager@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/scope-manager",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/scope-manager/LICENSE"
+  },
+  "@typescript-eslint/tsconfig-utils@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/tsconfig-utils",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/tsconfig-utils/LICENSE"
+  },
+  "@typescript-eslint/type-utils@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/type-utils",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/type-utils/LICENSE"
+  },
+  "@typescript-eslint/types@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/types",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/types/LICENSE"
+  },
+  "@typescript-eslint/typescript-estree@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/typescript-estree",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/typescript-estree/LICENSE"
+  },
+  "@typescript-eslint/utils@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/utils",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/utils/LICENSE"
+  },
+  "@typescript-eslint/visitor-keys@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/visitor-keys",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/visitor-keys/LICENSE"
+  },
+  "abbrev@4.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/abbrev-js",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/abbrev",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/abbrev/LICENSE"
+  },
+  "acorn-jsx@5.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/acornjs/acorn-jsx",
+    "path": "/workspaces/js_dictionary_sv/node_modules/acorn-jsx",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/acorn-jsx/LICENSE"
+  },
+  "acorn@8.15.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/acornjs/acorn",
+    "path": "/workspaces/js_dictionary_sv/node_modules/acorn",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/acorn/LICENSE"
+  },
+  "agent-base@7.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/proxy-agents",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/agent-base",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/agent-base/LICENSE"
+  },
+  "ajv@6.12.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ajv-validator/ajv",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/workspaces/js_dictionary_sv/node_modules/ajv",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/ajv/LICENSE"
+  },
+  "ansi-styles@4.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/ansi-styles",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/ansi-styles/license"
+  },
+  "argparse@2.0.1": {
+    "licenses": "Python-2.0",
+    "repository": "https://github.com/nodeca/argparse",
+    "path": "/workspaces/js_dictionary_sv/node_modules/argparse",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/argparse/LICENSE"
+  },
+  "aria-query@5.3.2": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/A11yance/aria-query",
+    "publisher": "Jesse Beach",
+    "email": "splendidnoise@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/aria-query",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/aria-query/LICENSE"
+  },
+  "array-find-index@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/array-find-index",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/array-find-index",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/array-find-index/license"
+  },
+  "axobject-query@4.1.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/A11yance/axobject-query",
+    "publisher": "Jesse Beach",
+    "email": "splendidnoise@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/axobject-query",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/axobject-query/LICENSE"
+  },
+  "balanced-match@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/balanced-match",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/balanced-match",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/balanced-match/LICENSE.md"
+  },
+  "base64-arraybuffer@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/base64-arraybuffer",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/base64-arraybuffer",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/base64-arraybuffer/LICENSE"
+  },
+  "brace-expansion@1.1.12": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/brace-expansion",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/brace-expansion/LICENSE"
+  },
+  "brace-expansion@2.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion/LICENSE"
+  },
+  "cacache@20.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/cacache",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/cacache",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/cacache/LICENSE.md"
+  },
+  "callsites@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/callsites",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/callsites",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/callsites/license"
+  },
+  "chalk@4.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "/workspaces/js_dictionary_sv/node_modules/chalk",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/chalk/license"
+  },
+  "chokidar@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/chokidar",
+    "publisher": "Paul Miller",
+    "url": "https://paulmillr.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/chokidar",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/chokidar/LICENSE"
+  },
+  "chownr@3.0.0": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/chownr",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/chownr",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/chownr/LICENSE.md"
+  },
+  "clsx@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/clsx",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/clsx",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/clsx/license"
+  },
+  "color-convert@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/color-convert",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/color-convert/LICENSE"
+  },
+  "color-name@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/colorjs/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/color-name",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/color-name/LICENSE"
+  },
+  "commenting@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/3rd-Eden/commenting",
+    "publisher": "Arnout Kazemier",
+    "path": "/workspaces/js_dictionary_sv/node_modules/commenting",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/commenting/README.md"
+  },
+  "concat-map@0.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-concat-map",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/workspaces/js_dictionary_sv/node_modules/concat-map",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/concat-map/LICENSE"
+  },
+  "cookie@0.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/cookie",
+    "publisher": "Roman Shtylman",
+    "email": "shtylman@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/cookie",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/cookie/LICENSE"
+  },
+  "cross-spawn@7.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/moxystudio/node-cross-spawn",
+    "publisher": "André Cruz",
+    "email": "andre@moxy.studio",
+    "path": "/workspaces/js_dictionary_sv/node_modules/cross-spawn",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/cross-spawn/LICENSE"
+  },
+  "css-line-break@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/css-line-break",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/css-line-break",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/css-line-break/LICENSE"
+  },
+  "cssesc@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/cssesc",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/cssesc",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/cssesc/LICENSE-MIT.txt"
+  },
+  "debug@4.4.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/debug-js/debug",
+    "publisher": "Josh Junon",
+    "url": "https://github.com/qix-",
+    "path": "/workspaces/js_dictionary_sv/node_modules/debug",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/debug/LICENSE"
+  },
+  "deep-is@0.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thlorenz/deep-is",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/deep-is",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/deep-is/LICENSE"
+  },
+  "deepmerge@4.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TehShrike/deepmerge",
+    "path": "/workspaces/js_dictionary_sv/node_modules/deepmerge",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/deepmerge/license.txt"
+  },
+  "detect-libc@2.1.2": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/lovell/detect-libc",
+    "publisher": "Lovell Fuller",
+    "email": "npm@lovell.info",
+    "path": "/workspaces/js_dictionary_sv/node_modules/detect-libc",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/detect-libc/LICENSE"
+  },
+  "devalue@5.6.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/devalue",
+    "path": "/workspaces/js_dictionary_sv/node_modules/devalue",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/devalue/LICENSE"
+  },
+  "encoding@0.1.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andris9/encoding",
+    "publisher": "Andris Reinman",
+    "path": "/workspaces/js_dictionary_sv/node_modules/encoding",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/encoding/LICENSE"
+  },
+  "env-paths@2.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/env-paths",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/env-paths",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/env-paths/license"
+  },
+  "err-code@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/IndigoUnited/js-err-code",
+    "publisher": "IndigoUnited",
+    "email": "hello@indigounited.com",
+    "url": "http://indigounited.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/err-code",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/err-code/README.md"
+  },
+  "esbuild@0.27.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/evanw/esbuild",
+    "path": "/workspaces/js_dictionary_sv/node_modules/esbuild",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/esbuild/LICENSE.md"
+  },
+  "escape-string-regexp@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/escape-string-regexp",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/escape-string-regexp/license"
+  },
+  "eslint-config-prettier@10.1.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/prettier/eslint-config-prettier",
+    "publisher": "Simon Lydell",
+    "path": "/workspaces/js_dictionary_sv/node_modules/eslint-config-prettier",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/eslint-config-prettier/LICENSE"
+  },
+  "eslint-plugin-svelte@3.14.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/eslint-plugin-svelte",
+    "publisher": "Yosuke Ota",
+    "url": "https://github.com/ota-meshi",
+    "path": "/workspaces/js_dictionary_sv/node_modules/eslint-plugin-svelte",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/eslint-plugin-svelte/LICENSE"
+  },
+  "eslint-scope@8.4.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/eslint/js",
+    "path": "/workspaces/js_dictionary_sv/node_modules/eslint-scope",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/eslint-scope/LICENSE"
+  },
+  "eslint-visitor-keys@3.4.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/eslint-visitor-keys",
+    "publisher": "Toru Nagashima",
+    "url": "https://github.com/mysticatea",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys/LICENSE"
+  },
+  "eslint-visitor-keys@4.2.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/js",
+    "publisher": "Toru Nagashima",
+    "url": "https://github.com/mysticatea",
+    "path": "/workspaces/js_dictionary_sv/node_modules/eslint-visitor-keys",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/eslint-visitor-keys/LICENSE"
+  },
+  "eslint@9.39.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint/eslint",
+    "publisher": "Nicholas C. Zakas",
+    "email": "nicholas+npm@nczconsulting.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/eslint",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/eslint/LICENSE"
+  },
+  "esm-env@1.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/benmccann/esm-env",
+    "publisher": "Ben McCann",
+    "url": "https://www.benmccann.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/esm-env",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/esm-env/LICENSE"
+  },
+  "espree@10.4.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/eslint/js",
+    "publisher": "Nicholas C. Zakas",
+    "email": "nicholas+npm@nczconsulting.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/espree",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/espree/LICENSE"
+  },
+  "esquery@1.7.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/estools/esquery",
+    "publisher": "Joel Feenstra",
+    "email": "jrfeenst+esquery@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/esquery",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/esquery/license.txt"
+  },
+  "esrap@2.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/esrap",
+    "path": "/workspaces/js_dictionary_sv/node_modules/esrap",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/esrap/LICENSE"
+  },
+  "esrecurse@4.3.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/estools/esrecurse",
+    "path": "/workspaces/js_dictionary_sv/node_modules/esrecurse",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/esrecurse/README.md"
+  },
+  "estraverse@5.3.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/estools/estraverse",
+    "path": "/workspaces/js_dictionary_sv/node_modules/estraverse",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/estraverse/LICENSE.BSD"
+  },
+  "esutils@2.0.3": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/estools/esutils",
+    "path": "/workspaces/js_dictionary_sv/node_modules/esutils",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/esutils/LICENSE.BSD"
+  },
+  "exponential-backoff@3.1.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/coveooss/exponential-backoff",
+    "publisher": "Sami Sayegh",
+    "path": "/workspaces/js_dictionary_sv/node_modules/exponential-backoff",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/exponential-backoff/LICENSE"
+  },
+  "fast-deep-equal@3.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-deep-equal",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/workspaces/js_dictionary_sv/node_modules/fast-deep-equal",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/fast-deep-equal/LICENSE"
+  },
+  "fast-json-stable-stringify@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-json-stable-stringify",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/workspaces/js_dictionary_sv/node_modules/fast-json-stable-stringify",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/fast-json-stable-stringify/LICENSE"
+  },
+  "fast-levenshtein@2.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/hiddentao/fast-levenshtein",
+    "publisher": "Ramesh Nair",
+    "email": "ram@hiddentao.com",
+    "url": "http://www.hiddentao.com/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/fast-levenshtein",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/fast-levenshtein/LICENSE.md"
+  },
+  "fdir@6.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thecodrr/fdir",
+    "publisher": "thecodrr",
+    "email": "thecodrr@protonmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/fdir",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/fdir/LICENSE"
+  },
+  "file-entry-cache@8.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jaredwray/file-entry-cache",
+    "publisher": "Jared Wray",
+    "url": "https://jaredwray.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/file-entry-cache",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/file-entry-cache/LICENSE"
+  },
+  "find-up@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/find-up",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/find-up",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/find-up/license"
+  },
+  "flat-cache@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jaredwray/flat-cache",
+    "publisher": "Jared Wray",
+    "url": "https://jaredwray.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/flat-cache",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/flat-cache/LICENSE"
+  },
+  "flatted@3.3.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/WebReflection/flatted",
+    "publisher": "Andrea Giammarchi",
+    "path": "/workspaces/js_dictionary_sv/node_modules/flatted",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/flatted/LICENSE"
+  },
+  "fs-minipass@3.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fs-minipass",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/fs-minipass",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/fs-minipass/LICENSE"
+  },
+  "glob-parent@6.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/gulpjs/glob-parent",
+    "publisher": "Gulp Team",
+    "email": "team@gulpjs.com",
+    "url": "https://gulpjs.com/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/glob-parent",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/glob-parent/LICENSE"
+  },
+  "glob@13.0.0": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/glob",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/glob/LICENSE.md"
+  },
+  "globals@14.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/globals",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@eslint/eslintrc/node_modules/globals",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@eslint/eslintrc/node_modules/globals/license"
+  },
+  "globals@16.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/globals",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/globals",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/globals/license"
+  },
+  "graceful-fs@4.2.11": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-graceful-fs",
+    "path": "/workspaces/js_dictionary_sv/node_modules/graceful-fs",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/graceful-fs/LICENSE"
+  },
+  "has-flag@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/has-flag",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/has-flag/license"
+  },
+  "html2canvas@1.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/html2canvas",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/html2canvas",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/html2canvas/LICENSE"
+  },
+  "http-cache-semantics@4.2.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/kornelski/http-cache-semantics",
+    "publisher": "Kornel Lesiński",
+    "email": "npms2@geekhood.net",
+    "url": "https://kornel.ski/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/http-cache-semantics",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/http-cache-semantics/LICENSE"
+  },
+  "http-proxy-agent@7.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/proxy-agents",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/http-proxy-agent",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/http-proxy-agent/LICENSE"
+  },
+  "https-proxy-agent@7.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/proxy-agents",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/https-proxy-agent",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/https-proxy-agent/LICENSE"
+  },
+  "iconv-lite@0.6.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ashtuchkin/iconv-lite",
+    "publisher": "Alexander Shtuchkin",
+    "email": "ashtuchkin@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/iconv-lite",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/iconv-lite/LICENSE"
+  },
+  "ignore@5.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kaelzhang/node-ignore",
+    "publisher": "kael",
+    "path": "/workspaces/js_dictionary_sv/node_modules/ignore",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/ignore/LICENSE-MIT"
+  },
+  "ignore@7.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kaelzhang/node-ignore",
+    "publisher": "kael",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore/LICENSE-MIT"
+  },
+  "immutable@5.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/immutable-js/immutable-js",
+    "publisher": "Lee Byron",
+    "url": "https://github.com/leebyron",
+    "path": "/workspaces/js_dictionary_sv/node_modules/immutable",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/immutable/LICENSE"
+  },
+  "import-fresh@3.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/import-fresh",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/import-fresh",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/import-fresh/license"
+  },
+  "imurmurhash@0.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jensyt/imurmurhash-js",
+    "publisher": "Jens Taylor",
+    "email": "jensyt@gmail.com",
+    "url": "https://github.com/homebrewing",
+    "path": "/workspaces/js_dictionary_sv/node_modules/imurmurhash",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/imurmurhash/README.md"
+  },
+  "ip-address@10.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/beaugunderson/ip-address",
+    "publisher": "Beau Gunderson",
+    "email": "beau@beaugunderson.com",
+    "url": "https://beaugunderson.com/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/ip-address",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/ip-address/LICENSE"
+  },
+  "is-extglob@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-extglob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/workspaces/js_dictionary_sv/node_modules/is-extglob",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/is-extglob/LICENSE"
+  },
+  "is-glob@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/is-glob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/workspaces/js_dictionary_sv/node_modules/is-glob",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/is-glob/LICENSE"
+  },
+  "is-reference@3.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Rich-Harris/is-reference",
+    "publisher": "Rich Harris",
+    "path": "/workspaces/js_dictionary_sv/node_modules/is-reference",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/is-reference/README.md"
+  },
+  "isexe@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/isexe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/isexe",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/isexe/LICENSE"
+  },
+  "isexe@3.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/isexe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/node-gyp/node_modules/isexe",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/node-gyp/node_modules/isexe/LICENSE"
+  },
+  "js-dictionary-sv@0.0.1": {
+    "licenses": "UNLICENSED",
+    "private": true,
+    "path": "/workspaces/js_dictionary_sv",
+    "licenseFile": "/workspaces/js_dictionary_sv/README.md"
+  },
+  "js-yaml@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodeca/js-yaml",
+    "publisher": "Vladimir Zapparov",
+    "email": "dervus.grim@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/js-yaml",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/js-yaml/LICENSE"
+  },
+  "json-buffer@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dominictarr/json-buffer",
+    "publisher": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "http://dominictarr.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/json-buffer",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/json-buffer/LICENSE"
+  },
+  "json-schema-traverse@0.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/json-schema-traverse",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/workspaces/js_dictionary_sv/node_modules/json-schema-traverse",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/json-schema-traverse/LICENSE"
+  },
+  "json-stable-stringify-without-jsonify@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/samn/json-stable-stringify",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/workspaces/js_dictionary_sv/node_modules/json-stable-stringify-without-jsonify",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/json-stable-stringify-without-jsonify/LICENSE"
+  },
+  "keyv@4.5.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jaredwray/keyv",
+    "publisher": "Jared Wray",
+    "email": "me@jaredwray.com",
+    "url": "http://jaredwray.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/keyv",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/keyv/README.md"
+  },
+  "kleur@4.1.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/kleur",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/kleur",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/kleur/license"
+  },
+  "known-css-properties@0.37.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/known-css/known-css-properties",
+    "publisher": "Viorel Cojocaru",
+    "email": "vio@beanon.com",
+    "url": "http://beanon.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/known-css-properties",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/known-css-properties/LICENSE"
+  },
+  "levn@0.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gkz/levn",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/levn",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/levn/LICENSE"
+  },
+  "lilconfig@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/antonk52/lilconfig",
+    "publisher": "antonk52",
+    "path": "/workspaces/js_dictionary_sv/node_modules/lilconfig",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/lilconfig/LICENSE"
+  },
+  "locate-character@3.0.0": {
+    "licenses": "MIT",
+    "repository": "git+https://gitlab.com/Rich-Harris/locate-character",
+    "publisher": "Rich Harris",
+    "path": "/workspaces/js_dictionary_sv/node_modules/locate-character",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/locate-character/README.md"
+  },
+  "locate-path@6.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/locate-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/locate-path",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/locate-path/license"
+  },
+  "lodash.merge@4.6.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/lodash.merge",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/lodash.merge/LICENSE"
+  },
+  "lodash@4.17.21": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/lodash",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/lodash/LICENSE"
+  },
+  "lru-cache@11.2.4": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/lru-cache",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/lru-cache/LICENSE.md"
+  },
+  "magic-string@0.30.21": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Rich-Harris/magic-string",
+    "publisher": "Rich Harris",
+    "path": "/workspaces/js_dictionary_sv/node_modules/magic-string",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/magic-string/LICENSE"
+  },
+  "make-fetch-happen@15.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/make-fetch-happen",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/make-fetch-happen",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/make-fetch-happen/LICENSE"
+  },
+  "minimatch@10.1.1": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/glob/node_modules/minimatch",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/glob/node_modules/minimatch/LICENSE.md"
+  },
+  "minimatch@3.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/minimatch",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/minimatch/LICENSE"
+  },
+  "minimatch@9.0.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch/LICENSE"
+  },
+  "minipass-collect@2.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass-collect",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/minipass-collect",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/minipass-collect/LICENSE"
+  },
+  "minipass-fetch@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/npm/minipass-fetch",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/minipass-fetch",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/minipass-fetch/LICENSE"
+  },
+  "minipass-flush@1.0.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass-flush",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/minipass-flush",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/minipass-flush/LICENSE"
+  },
+  "minipass-pipeline@1.2.4": {
+    "licenses": "ISC",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/minipass-pipeline",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/minipass-pipeline/LICENSE"
+  },
+  "minipass-sized@1.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass-sized",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/minipass-sized",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/minipass-sized/LICENSE"
+  },
+  "minipass@3.3.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/minipass-flush/node_modules/minipass",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/minipass-flush/node_modules/minipass/LICENSE"
+  },
+  "minipass@7.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/minipass",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/minipass/LICENSE"
+  },
+  "minizlib@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/minizlib",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/minizlib",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/minizlib/LICENSE"
+  },
+  "moment@2.30.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/moment/moment",
+    "publisher": "Iskren Ivov Chernev",
+    "email": "iskren.chernev@gmail.com",
+    "url": "https://github.com/ichernev",
+    "path": "/workspaces/js_dictionary_sv/node_modules/moment",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/moment/LICENSE"
+  },
+  "mri@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/mri",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/mri",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/mri/license.md"
+  },
+  "mrmime@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/mrmime",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/mrmime",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/mrmime/license"
+  },
+  "ms@2.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/ms",
+    "path": "/workspaces/js_dictionary_sv/node_modules/ms",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/ms/license.md"
+  },
+  "nanoid@3.3.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ai/nanoid",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/workspaces/js_dictionary_sv/node_modules/nanoid",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/nanoid/LICENSE"
+  },
+  "natural-compare@1.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/litejs/natural-compare-lite",
+    "publisher": "Lauri Rooden",
+    "url": "https://github.com/litejs/natural-compare-lite",
+    "path": "/workspaces/js_dictionary_sv/node_modules/natural-compare",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/natural-compare/README.md"
+  },
+  "negotiator@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/negotiator",
+    "path": "/workspaces/js_dictionary_sv/node_modules/negotiator",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/negotiator/LICENSE"
+  },
+  "node-addon-api@7.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/node-addon-api",
+    "path": "/workspaces/js_dictionary_sv/node_modules/node-addon-api",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/node-addon-api/LICENSE.md"
+  },
+  "node-gyp@12.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/node-gyp",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://tootallnate.net",
+    "path": "/workspaces/js_dictionary_sv/node_modules/node-gyp",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/node-gyp/LICENSE"
+  },
+  "nopt@9.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/nopt",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/nopt/LICENSE"
+  },
+  "obug@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sxzz/obug",
+    "publisher": "Kevin Deng",
+    "email": "sxzz@sxzz.moe",
+    "path": "/workspaces/js_dictionary_sv/node_modules/obug",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/obug/LICENSE"
+  },
+  "optionator@0.9.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gkz/optionator",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/optionator",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/optionator/LICENSE"
+  },
+  "p-limit@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-limit",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/p-limit",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/p-limit/license"
+  },
+  "p-locate@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-locate",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/p-locate",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/p-locate/license"
+  },
+  "p-map@7.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-map",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/p-map",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/p-map/license"
+  },
+  "package-name-regex@2.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dword-design/package-name-regex",
+    "publisher": "Sebastian Landwehr",
+    "email": "info@sebastianlandwehr.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/package-name-regex",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/package-name-regex/LICENSE.md"
+  },
+  "parent-module@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/parent-module",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/parent-module",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/parent-module/license"
+  },
+  "path-exists@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-exists",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/path-exists",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/path-exists/license"
+  },
+  "path-key@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-key",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/path-key",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/path-key/license"
+  },
+  "path-scurry@2.0.1": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/path-scurry",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/path-scurry",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/path-scurry/LICENSE.md"
+  },
+  "picocolors@1.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/alexeyraspopov/picocolors",
+    "publisher": "Alexey Raspopov",
+    "path": "/workspaces/js_dictionary_sv/node_modules/picocolors",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/picocolors/LICENSE"
+  },
+  "picomatch@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/picomatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/workspaces/js_dictionary_sv/node_modules/picomatch",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/picomatch/LICENSE"
+  },
+  "postcss-load-config@3.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-load-config",
+    "publisher": "Michael Ciniawky",
+    "email": "michael.ciniawsky@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/postcss-load-config",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/postcss-load-config/LICENSE"
+  },
+  "postcss-safe-parser@7.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-safe-parser",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/workspaces/js_dictionary_sv/node_modules/postcss-safe-parser",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/postcss-safe-parser/LICENSE"
+  },
+  "postcss-scss@4.0.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-scss",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/workspaces/js_dictionary_sv/node_modules/postcss-scss",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/postcss-scss/LICENSE"
+  },
+  "postcss-selector-parser@7.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-selector-parser",
+    "path": "/workspaces/js_dictionary_sv/node_modules/postcss-selector-parser",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/postcss-selector-parser/LICENSE-MIT"
+  },
+  "postcss@8.5.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/workspaces/js_dictionary_sv/node_modules/postcss",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/postcss/LICENSE"
+  },
+  "prelude-ls@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gkz/prelude-ls",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/prelude-ls",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/prelude-ls/LICENSE"
+  },
+  "prettier-plugin-svelte@3.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/prettier-plugin-svelte",
+    "publisher": "James Birtles",
+    "email": "jameshbirtles@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/prettier-plugin-svelte",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/prettier-plugin-svelte/LICENSE"
+  },
+  "prettier@3.7.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/prettier/prettier",
+    "publisher": "James Long",
+    "path": "/workspaces/js_dictionary_sv/node_modules/prettier",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/prettier/LICENSE"
+  },
+  "proc-log@6.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/proc-log",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/proc-log",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/proc-log/LICENSE"
+  },
+  "promise-retry@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/IndigoUnited/node-promise-retry",
+    "publisher": "IndigoUnited",
+    "email": "hello@indigounited.com",
+    "url": "http://indigounited.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/promise-retry",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/promise-retry/LICENSE"
+  },
+  "punycode@2.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/punycode.js",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/punycode",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/punycode/LICENSE-MIT.txt"
+  },
+  "readdirp@4.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/readdirp",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "thlorenz.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/readdirp",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/readdirp/LICENSE"
+  },
+  "resolve-from@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/resolve-from",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/resolve-from",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/resolve-from/license"
+  },
+  "retry@0.12.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tim-kos/node-retry",
+    "publisher": "Tim Koschützki",
+    "email": "tim@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/retry",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/retry/License"
+  },
+  "rollup-plugin-license@3.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mjeanroy/rollup-plugin-license",
+    "publisher": "Mickael Jeanroy",
+    "email": "mickael.jeanroy@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/rollup-plugin-license",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/rollup-plugin-license/LICENSE"
+  },
+  "rollup@4.55.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/rollup/rollup",
+    "publisher": "Rich Harris",
+    "path": "/workspaces/js_dictionary_sv/node_modules/rollup",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/rollup/LICENSE.md"
+  },
+  "sade@1.8.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/sade",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/sade",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/sade/license"
+  },
+  "safer-buffer@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ChALkeR/safer-buffer",
+    "publisher": "Nikita Skovoroda",
+    "email": "chalkerx@gmail.com",
+    "url": "https://github.com/ChALkeR",
+    "path": "/workspaces/js_dictionary_sv/node_modules/safer-buffer",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/safer-buffer/LICENSE"
+  },
+  "sass@1.97.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sass/dart-sass",
+    "publisher": "Natalie Weizenbaum",
+    "email": "nweiz@google.com",
+    "url": "https://github.com/nex3",
+    "path": "/workspaces/js_dictionary_sv/node_modules/sass",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/sass/LICENSE"
+  },
+  "semver@7.7.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/semver",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/semver/LICENSE"
+  },
+  "set-cookie-parser@2.7.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nfriedly/set-cookie-parser",
+    "publisher": "Nathan Friedly",
+    "url": "http://nfriedly.com/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/set-cookie-parser",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/set-cookie-parser/LICENSE"
+  },
+  "shebang-command@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kevva/shebang-command",
+    "publisher": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva",
+    "path": "/workspaces/js_dictionary_sv/node_modules/shebang-command",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/shebang-command/license"
+  },
+  "shebang-regex@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/shebang-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/shebang-regex",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/shebang-regex/license"
+  },
+  "sirv@3.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/sirv",
+    "publisher": "Luke Edwards",
+    "email": "luke@lukeed.com",
+    "url": "https://lukeed.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/sirv",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/sirv/readme.md"
+  },
+  "smart-buffer@4.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/JoshGlazebrook/smart-buffer",
+    "publisher": "Josh Glazebrook",
+    "path": "/workspaces/js_dictionary_sv/node_modules/smart-buffer",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/smart-buffer/LICENSE"
+  },
+  "socks-proxy-agent@8.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/proxy-agents",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/socks-proxy-agent",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/socks-proxy-agent/LICENSE"
+  },
+  "socks@2.8.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/JoshGlazebrook/socks",
+    "publisher": "Josh Glazebrook",
+    "path": "/workspaces/js_dictionary_sv/node_modules/socks",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/socks/LICENSE"
+  },
+  "source-map-js@1.2.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/7rulnik/source-map-js",
+    "publisher": "Valentin 7rulnik Semirulnik",
+    "email": "v7rulnik@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/source-map-js",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/source-map-js/LICENSE"
+  },
+  "spdx-compare@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-compare.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/spdx-compare",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/spdx-compare/LICENSE.md"
+  },
+  "spdx-exceptions@2.5.0": {
+    "licenses": "CC-BY-3.0",
+    "repository": "https://github.com/kemitchell/spdx-exceptions.json",
+    "publisher": "The Linux Foundation",
+    "path": "/workspaces/js_dictionary_sv/node_modules/spdx-exceptions",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/spdx-exceptions/README.md"
+  },
+  "spdx-expression-parse@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jslicense/spdx-expression-parse.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/spdx-expression-parse",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/spdx-expression-parse/LICENSE"
+  },
+  "spdx-expression-validate@2.0.0": {
+    "licenses": "(MIT AND CC-BY-3.0)",
+    "repository": "https://github.com/kemitchell/spdx-expression-validate.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "http://kemitchell.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/spdx-expression-validate",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/spdx-expression-validate/LICENSE"
+  },
+  "spdx-license-ids@3.0.22": {
+    "licenses": "CC0-1.0",
+    "repository": "https://github.com/jslicense/spdx-license-ids",
+    "publisher": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn",
+    "path": "/workspaces/js_dictionary_sv/node_modules/spdx-license-ids",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/spdx-license-ids/README.md"
+  },
+  "spdx-ranges@2.1.1": {
+    "licenses": "(MIT AND CC-BY-3.0)",
+    "repository": "https://github.com/kemitchell/spdx-ranges.js",
+    "publisher": "The Linux Foundation",
+    "path": "/workspaces/js_dictionary_sv/node_modules/spdx-ranges",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/spdx-ranges/LICENSE.md"
+  },
+  "spdx-satisfies@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-satisfies.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/spdx-satisfies",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/spdx-satisfies/LICENSE"
+  },
+  "ssri@13.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/ssri",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/ssri",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/ssri/LICENSE.md"
+  },
+  "strip-json-comments@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/strip-json-comments",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/strip-json-comments",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/strip-json-comments/license"
+  },
+  "supports-color@7.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/supports-color",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/supports-color/license"
+  },
+  "svelte-check@4.3.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/language-tools",
+    "publisher": "The Svelte Community",
+    "path": "/workspaces/js_dictionary_sv/node_modules/svelte-check",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/svelte-check/LICENSE"
+  },
+  "svelte-eslint-parser@1.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/svelte-eslint-parser",
+    "publisher": "Yosuke Ota",
+    "url": "https://github.com/ota-meshi",
+    "path": "/workspaces/js_dictionary_sv/node_modules/svelte-eslint-parser",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/svelte-eslint-parser/LICENSE"
+  },
+  "svelte@5.46.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/svelte",
+    "path": "/workspaces/js_dictionary_sv/node_modules/svelte",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/svelte/LICENSE.md"
+  },
+  "tar@7.5.2": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/node-tar",
+    "publisher": "Isaac Z. Schlueter",
+    "path": "/workspaces/js_dictionary_sv/node_modules/tar",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/tar/LICENSE.md"
+  },
+  "text-segmentation@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/text-segmentation",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/text-segmentation",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/text-segmentation/LICENSE"
+  },
+  "tinyglobby@0.2.15": {
+    "licenses": "MIT",
+    "repository": "https://github.com/SuperchupuDev/tinyglobby",
+    "publisher": "Superchupu",
+    "path": "/workspaces/js_dictionary_sv/node_modules/tinyglobby",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/tinyglobby/LICENSE"
+  },
+  "totalist@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/totalist",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/totalist",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/totalist/license"
+  },
+  "ts-api-utils@2.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/JoshuaKGoldberg/ts-api-utils",
+    "publisher": "JoshuaKGoldberg",
+    "email": "npm@joshuakgoldberg.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/ts-api-utils",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/ts-api-utils/LICENSE.md"
+  },
+  "type-check@0.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gkz/type-check",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/type-check",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/type-check/LICENSE"
+  },
+  "typescript-eslint@8.53.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/workspaces/js_dictionary_sv/node_modules/typescript-eslint",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/typescript-eslint/LICENSE"
+  },
+  "typescript@5.9.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/microsoft/TypeScript",
+    "publisher": "Microsoft Corp.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/typescript",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/typescript/LICENSE.txt"
+  },
+  "undici-types@7.16.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/undici",
+    "path": "/workspaces/js_dictionary_sv/node_modules/undici-types",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/undici-types/LICENSE"
+  },
+  "unique-filename@5.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/unique-filename",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/unique-filename",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/unique-filename/LICENSE"
+  },
+  "unique-slug@6.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/unique-slug",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/unique-slug",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/unique-slug/LICENSE"
+  },
+  "uqr@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/unjs/uqr",
+    "publisher": "Anthony Fu",
+    "email": "anthonyfu117@hotmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/uqr",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/uqr/LICENSE"
+  },
+  "uri-js@4.4.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/garycourt/uri-js",
+    "publisher": "Gary Court",
+    "email": "gary.court@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/uri-js",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/uri-js/LICENSE"
+  },
+  "util-deprecate@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/util-deprecate",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/util-deprecate",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/util-deprecate/LICENSE"
+  },
+  "utrie@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/niklasvh/utrie",
+    "publisher": "Niklas von Hertzen",
+    "email": "niklasvh@gmail.com",
+    "url": "https://hertzen.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/utrie",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/utrie/LICENSE"
+  },
+  "vite-plugin-license@0.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tasshi-me/vite-plugin-license",
+    "publisher": "tasshi",
+    "email": "tasshi.me@gmail.com",
+    "url": "Masaharu Tashiro",
+    "path": "/workspaces/js_dictionary_sv/node_modules/vite-plugin-license",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/vite-plugin-license/LICENSE"
+  },
+  "vite@7.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vitejs/vite",
+    "publisher": "Evan You",
+    "path": "/workspaces/js_dictionary_sv/node_modules/vite",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/vite/LICENSE.md"
+  },
+  "vitefu@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/svitejs/vitefu",
+    "path": "/workspaces/js_dictionary_sv/node_modules/vitefu",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/vitefu/LICENSE"
+  },
+  "which@2.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-which",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/workspaces/js_dictionary_sv/node_modules/which",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/which/LICENSE"
+  },
+  "which@6.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-which",
+    "publisher": "GitHub Inc.",
+    "path": "/workspaces/js_dictionary_sv/node_modules/node-gyp/node_modules/which",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/node-gyp/node_modules/which/LICENSE"
+  },
+  "word-wrap@1.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/word-wrap",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/workspaces/js_dictionary_sv/node_modules/word-wrap",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/word-wrap/LICENSE"
+  },
+  "yallist@4.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/yallist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/yallist",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/yallist/LICENSE"
+  },
+  "yallist@5.0.0": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/yallist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/workspaces/js_dictionary_sv/node_modules/tar/node_modules/yallist",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/tar/node_modules/yallist/LICENSE.md"
+  },
+  "yaml@1.10.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/eemeli/yaml",
+    "publisher": "Eemeli Aro",
+    "email": "eemeli@gmail.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/yaml",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/yaml/LICENSE"
+  },
+  "yocto-queue@0.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/yocto-queue",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/workspaces/js_dictionary_sv/node_modules/yocto-queue",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/yocto-queue/license"
+  },
+  "zimmerframe@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sveltejs/zimmerframe",
+    "path": "/workspaces/js_dictionary_sv/node_modules/zimmerframe",
+    "licenseFile": "/workspaces/js_dictionary_sv/node_modules/zimmerframe/LICENSE"
+  }
+}

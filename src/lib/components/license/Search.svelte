@@ -1,16 +1,12 @@
 <script lang="ts">
-  import licenseEntries from '$lib/data/license-dat.json';
-
-  interface LicenseEntry {
-    name: string;
-    version: string;
-    license: string;
-    licenseText: string;
-    author?: string;
-    repository?: string;
-  }
-
+  import licenseData from '$lib/data/license-data.json';
   const appName = __APP_NAME__;
+
+  const rawEntries = Object.entries(licenseData);
+
+  const licenseEntries = rawEntries.filter(
+    ([pkgName]) => pkgName.split('@').slice(0, -1).join('@') !== appName
+  );
 
   // 検索中のキーワード
   let searchWord = $state('');
@@ -21,25 +17,17 @@
       .map((keyword) => keyword.toLowerCase())
   );
 
-  // 2. 検索ロジックの修正
   const filteredLicenseEntries = $derived.by(() => {
     if (searchKeywords.length === 0) {
       return licenseEntries;
     } else {
-      return licenseEntries.filter((pkg) => {
-        const lowerPkgName = pkg.name.toLowerCase();
-        // パッケージ名だけでなく、ライセンス名でも検索できるようにすると便利
-        const lowerLicense = pkg.license.toLowerCase();
+      return licenseEntries.filter(([pkgName]) => {
+        const lowerPkgName = pkgName.toLowerCase();
 
-        return searchKeywords.every((keyword) => 
-          lowerPkgName.includes(keyword) || lowerLicense.includes(keyword)
-        );
+        return searchKeywords.every((keyword) => lowerPkgName.includes(keyword));
       });
     }
   });
-
-  // 偽装工作
-  import type {} from '@sveltejs/kit';
 </script>
 
 <div class="root">
@@ -56,21 +44,31 @@
           aria-label="検索クエリを削除"
           onclick={() => (searchWord = '')}
         >
-          </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="currentColor"
+          >
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+            ></path>
+          </svg>
+        </button>
       {/if}
     </div>
-    <p>{filteredLicenseEntries.length}個のライセンスを表示中</p>
+    <p>{filteredLicenseEntries?.length || 0}個のライセンスを表示中</p>
     <ul>
-      {#each filteredLicenseEntries as pkg}
+      {#each filteredLicenseEntries as entry}
         <li>
-          <a href={"/license/" + (pkg.name.replaceAll('/', '__'))}>
-            <h3>{pkg.name}</h3>
-            <span>{pkg.license} License</span>
-            <small>v{pkg.version}</small>
+          <a href={"/license/" + (entry[0].replaceAll('/', '__'))}>
+            <h3>{entry[0]}</h3>
+            <span>{entry[1].licenses} License</span>
           </a>
         </li>
-        <div class='spacer'></div>
       {/each}
+      <div class='spacer'></div>
     </ul>
   </div>
 </div>
