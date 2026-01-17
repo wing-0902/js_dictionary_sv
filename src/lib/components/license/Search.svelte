@@ -8,7 +8,26 @@
     ([pkgName]) => pkgName.split('@').slice(0, -1).join('@') !== appName
   );
 
+  // 検索中のキーワード
   let searchWord = $state('');
+  const searchKeywords = $derived(
+    searchWord
+      .split(/[ 　]+/)
+      .filter((keyword) => keyword.length > 0)
+      .map((keyword) => keyword.toLowerCase())
+  );
+
+  const filteredLicenseEntries = $derived.by(() => {
+    if (searchKeywords.length === 0) {
+      return licenseEntries;
+    } else {
+      licenseEntries.filter(([pkgName]) => {
+        const lowerPkgName = pkgName.toLowerCase();
+
+        return searchKeywords.every((keyword) => lowerPkgName.includes(keyword));
+      });
+    }
+  });
 </script>
 
 <div class="root">
@@ -17,12 +36,13 @@
     <div class="search">
       <input
         type="search"
+        placeholder="入力して検索"
         bind:value={searchWord}
       />
       {#if searchWord !== ''}
         <button
           aria-label="検索クエリを削除"
-          onclick={() => searchWord = ''}
+          onclick={() => (searchWord = '')}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,6 +58,18 @@
         </button>
       {/if}
     </div>
+    <p>{filteredLicenseEntries?.length || 0}個のライセンスを表示中</p>
+    <ul>
+      {#each filteredLicenseEntries as entry}
+        <li>
+          <a href={entry[0].replaceAll('/', '__')}>
+            <h3>{entry[0]}</h3>
+            <span>{entry[1].licenses} License</span>
+          </a>
+        </li>
+        <div class='spacer'></div>
+      {/each}
+    </ul>
   </div>
 </div>
 
@@ -64,7 +96,7 @@
           color: var(--foreground);
           margin: 0;
           width: 100%;
-          font-family: var(--font-fira-code), var(--font-zen-kaku-gothic-new), monospace;
+          font-family: 'Fira Code Variable', 'Zen Kaku Gothic New', monospace;
           height: 40px;
           font-size: 16px;
           display: flex;
@@ -117,7 +149,7 @@
             }
             h3,
             span {
-              font-family: var(--font-fira-code), var(--font-zen-kaku-gothic-new), monospace;
+              font-family: 'Fira Code Variable', 'Zen Kaku Gothic New', monospace;
             }
             span {
               font-size: 15px;
