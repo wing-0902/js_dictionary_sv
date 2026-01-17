@@ -27,6 +27,10 @@
   const title = $derived(
     page.data.title === defaultTitle ? defaultTitle : `${page.data.title} | ${defaultTitle}`
   );
+
+  // generator
+  import { VERSION } from '@sveltejs/kit';
+  const generatorName = 'SvelteKit ' + VERSION;
 </script>
 
 <svelte:head>
@@ -35,6 +39,7 @@
     href={canonical}
   />
   <title>{title}</title>
+  <meta name="generator" content={generatorName} />
 </svelte:head>
 
 <div class="body">
