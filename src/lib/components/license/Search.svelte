@@ -67,8 +67,8 @@
             <span>{entry[1].licenses} License</span>
           </a>
         </li>
-        <div class='spacer'></div>
       {/each}
+      <div class='spacer'></div>
     </ul>
   </div>
 </div>
