@@ -37,6 +37,9 @@
       });
     }
   });
+
+  // 偽装工作
+  import type {} from '@sveltejs/kit';
 </script>
 
 <div class="root">
