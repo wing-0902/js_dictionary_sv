@@ -4,13 +4,12 @@
   import PagefindNewEntrance from '$lib/components/search/Entrance.svelte';
 
   import { page } from '$app/state';
-  let content = page.data.leftComponent;
 </script>
 
 <div class="root">
-  {#if content === 'license'}
+  {#if page.data.leftComponent === 'license'}
     <LicenseSearch />
-  {:else if content === 'search'}
+  {:else if page.data.leftComponent === 'search'}
     <PagefindNewEntrance />
   {:else}
     <NotFoundLeft />

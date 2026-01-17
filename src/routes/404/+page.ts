@@ -1,6 +1,9 @@
-export function load() {
+import type { PageLoad } from './$types';
+
+export const load: PageLoad = ({ params }) =>  {
   return {
     title: 'Not Found',
-    header: 'search'
+    header: 'search',
+    leftComponent: 'search'
   };
 }
