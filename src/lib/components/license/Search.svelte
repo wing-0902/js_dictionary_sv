@@ -21,7 +21,7 @@
     if (searchKeywords.length === 0) {
       return licenseEntries;
     } else {
-      licenseEntries.filter(([pkgName]) => {
+      return licenseEntries.filter(([pkgName]) => {
         const lowerPkgName = pkgName.toLowerCase();
 
         return searchKeywords.every((keyword) => lowerPkgName.includes(keyword));
