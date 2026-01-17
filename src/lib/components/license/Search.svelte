@@ -62,7 +62,7 @@
     <ul>
       {#each filteredLicenseEntries as entry}
         <li>
-          <a href={entry[0].replaceAll('/', '__')}>
+          <a href={"/license/" + (entry[0].replaceAll('/', '__'))}>
             <h3>{entry[0]}</h3>
             <span>{entry[1].licenses} License</span>
           </a>
